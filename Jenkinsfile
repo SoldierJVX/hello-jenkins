@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo "Hello Jenkins" > /home/joaosilva/Desktop/teste.txt'
+                sh 'echo "Hello Jenkins"'
             }
         }
     }
