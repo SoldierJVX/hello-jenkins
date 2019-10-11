@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh '"Hello Jenkins" > ~/TesteFuncionamento'
+                sh '"Hello Jenkins" > $HOME/TesteFuncionamento.txt'
             }
         }
     }
